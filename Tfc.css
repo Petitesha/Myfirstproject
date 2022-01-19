@@ -1,9 +1,15 @@
 *{
-    margin: 8px;
+    margin: 0px;
     box-sizing: content-box;
     padding: 0px;
+    background-color: aqua;
 }
-
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
 .nav{
     display: flex;
     justify-content: space-around;
