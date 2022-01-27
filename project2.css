@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --font-family-primary: 'Lexend Deca', sans-serif;
+    --font-size-normal: 16px;
+
+    --primary-color: hsl(171, 66%, 44%);
+    --secondary-color: hsl(233, 100%, 69%);
+}
+html {
+    font-size: 100%;
+}
+
+
+body {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-family-primary);
+
+}
+.container{
+   background-image: url("./images/bg-header-desktop.png"), linear-gradient(to bottom, transparent 0,white 30%);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.header{
+    width: 100%;
+    padding: 20px 0px;
+}
+.innercontainer{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    width: 60px;
+    height: 60px;
+}
+.img>img{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 600px;
+}
+.ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ul a{
+    text-decoration: none;
+    font-size: var(--font-size-normal);
+    font-weight: 400;
+    color: var(--secondary-color);
+    font-family:var(--font-family-primary);
+}
+.img2{
+    margin: 40px auto;
+    width: 100px;
+}
+.img2>img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec1{
+    margin-bottom: 150px;
+}
+.section{
+    width: 50%;
+    margin: auto;
+}
+    .con1{
+    text-align: center;
+    font-family: var(--font-family-primary);
+}
+.con1 p{
+    margin: 30px 0;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+}
+.con1 h1{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 35px;
+}
+.con1 h2{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 30px;
+}
+.btns{
+    border: none;
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 400;
+    border-radius: 200px;
+    font-family: var(--font-family-primary)
+}
+.btns:first-child {
+    margin-right: 30px;
+}
+.btns-1{
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 2px var(--primary-color);
+}
+.btns-2{
+    background-color: var(--secondary-color);
+    box-shadow: 1px 1px 2px var(--secondary-color);
+}
+.computer{
+    margin:0 auto;
+    padding: 30px;
+}
+.computer::after{
+    display: block;
+    clear: both;
+}
+.imgcomp{
+    float: left;
+    margin: 50px;
+}
+.quick{
+    margin: 20px;
+    padding: 20px;
+    line-height: 2.5em;
+    width: 100%;
+    font-family: var(--font-family-primary);
+}
+#quick{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 30px;
+}
+#pid{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+}
+.mar{
+    margin: 20px;
+    padding: 15px;
+}
+.access{
+    margin: 200px 40px 40px 0px;
+    padding: 20px;
+    text-align: center;
+    line-height: 2.5em;
+}
+.desktop{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superchange{
+    margin: 40px 20px 20px 0px;
+    padding: 20px;
+    text-align: center;
+    line-height: 2.5em;
+}
+.cont2{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+
+}
+.imgdiv{
+    width:70%;
+    padding: 20px;
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+}
+.bigtext{
+    width:100%;
+    padding: 0px;
+    margin:30px auto;
+    text-align: center; 
+    font-size: 18px; 
+    font-family: var(--font-family-primary); 
+    color: hsl(210, 10%, 33%);
+    line-height: 2.5em;
+}
+.smalltext{
+    width:100%;
+    padding: 0px;
+    margin:30px auto;
+    text-align: center; 
+    font-size: 12px;
+    font-family: var(--font-family-primary);
+    color: hsl(201, 11%, 66%);
+    line-height: 2.5em;
+}
+.all-logos{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clip{
+    margin-top: 150px;
+}
+
+footer{
+   background-color:  hsl(201, 15%, 81%);
+}
+.footerimg{
+    width: 50px;
+    height: 50px;
+}
+.footercontainer{
+margin: auto;
+padding: 40px auto;
+display: flex;
+width: 80%;
+justify-content: space-between;
+align-items: center;
+}
+.icons {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 20px;
+}
+
+/* .faqs{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+   display: flex;
+   justify-content: right;
+   margin-left: 20px;
+} */
